@@ -1,16 +1,16 @@
 # HSE-group-project-2023
-Hello! You are on our group project repository. Here you can find all the material of our project and useful links. 
+Здравствуйте! Вы находитесь в репозитории нашего группового проекта. Здесь вы найдете все материалы нашего проекта и полезные ссылки. 
 
-We tried to build an optimal momentum trading strategy, laying down the rules under which we enter into one position or another.\
-In our model, the expediency of actions is influenced by six parameters:
-- Weights of currencies in the portfolio
-- The threshold at which we consider a change in value to be significant
-- Number of consecutive previous days in which the threshold was
-crossed\
+Мы попытались построить оптимальную стратегию торговли на импульсах, заложив правила, по которым мы входим в ту или иную позицию.\
+В нашей модели на целесообразность действий влияют шесть параметров:
+- Веса валют в портфеле
+- Порог, при котором мы считаем изменение стоимости значительным
+- Количество последовательных предыдущих дней, в течение которых порог был
+преодолен\
 
-We assume exchange rate deviations to be symmetrical, so we set a
-single threshold in both directions. Among all possible options, we tried to find the outcome with the highest Sharpe Ratio\
-*The Sharpe ratio is a performance metric that allows investors to compare the returns of different portfolios relative to their risks. The ratio highlights volatility or standard deviation as a major source of risk for many portfolios, and it allows investors to factor it in when calculating the suitability of different investments*\
-*Sharpe ratio = (Portfolio return – Risk-free rate)/Portfolio standard deviation*
+Мы предполагаем, что отклонения обменного курса симметричны, поэтому мы устанавливаем
+единый порог в обоих направлениях. Среди всех возможных вариантов мы пытаемся найти исход с самым высоким коэффициентом Шарпа\
+*Коэффициент Шарпа - это показатель эффективности, который позволяет инвесторам сравнивать доходность различных портфелей относительно их рисков. Коэффициент подчеркивает волатильность или стандартное отклонение как основной источник риска для многих портфелей, и позволяет инвесторам учитывать его при расчете пригодности различных инвестиций*\\
+*Коэффициент Шарпа = (доходность портфеля - безрисковая ставка)/стандартное отклонение портфеля*.
 
 

@@ -9,4 +9,8 @@ In our model, the expediency of actions is influenced by six parameters:
 crossed\
 
 We assume exchange rate deviations to be symmetrical, so we set a
-single threshold in both directions. Among all possible options, we tried to find the outcome with the highest Sharpe Ratio
+single threshold in both directions. Among all possible options, we tried to find the outcome with the highest Sharpe Ratio\
+*The Sharpe ratio is a performance metric that allows investors to compare the returns of different portfolios relative to their risks. The ratio highlights volatility or standard deviation as a major source of risk for many portfolios, and it allows investors to factor it in when calculating the suitability of different investments*\
+*Sharpe ratio = (Portfolio return – Risk-free rate)/Portfolio standard deviation*
+
+

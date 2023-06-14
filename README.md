@@ -35,23 +35,23 @@
 - value_RUB - ключевая ставка процента РФ
 - value_USD - индекс LIBOR USD overnight 
 - value_EUR - индекс LIBOR EUR overnight 
-- value_GBP - индекс LIBOR GBP overnight 
-- value_JPY - индекс LIBOR JPY overnight 
+- value_GBP - индекс LIBOR GBP 3m 
+- value_JPY - индекс LIBOR JPY 1m 
 - value_CNY - индекс SHIBOR CNY overnight 
 Описание индексов: 
 1. Индекс LIBOR - это самая распространённая в мире средневзвешенная процентная ставка по краткосрочным межбанковским кредитам. Лондонская межбанковская ставка предложения (LIBOR, London Interbank Offered Rate) - это процентная ставка, по которой банки одалживают средства на Лондонском межбанковском рынке.
 
-2. SHIBOR (аббревиатура от Shanghai Interbank Offered Rate) – Шанхайская межбанковская ставка предложения, то есть ставка, по которой банки готовы предоставлять необеспеченные долги в юанях (RMB) на различные сроки.
+2. SHIBOR (аббревиатура от Shanghai Interbank Offered Rate) – Шанхайская межбанковская ставка предложения, то есть ставка, по которой банки готовы предоставлять необеспеченные долги в юанях (RMB) на различные сроки. 
 
-   
 Рассматриваемый период: 2015-05-15 - 2023-12-05 
+
 
 Данные по индексам парсились с: 
 http://iborate.com/jpy-libor/
 
 https://www.investing.com/rates-bonds/shibor-overnight-historical-data
 
-Данные по курсам парсились с: https://cbr.ru/currency_base/dynamics/?UniDbQuery.Posted=True&UniDbQuery.so=1&UniDbQuery.mode=1&UniDbQuery.date_req1=&UniDbQuery.date_req2=&UniDbQuery.VAL_NM_RQ=R01035&UniDbQuery.From=15.05.2015&UniDbQuery.To=15.05.2023
+Данные по курсам парсились с:https://cbr.ru/currency_base/dynamics/?UniDbQuery.Posted=True&UniDbQuery.so=1&UniDbQuery.mode=1&UniDbQuery.date_req1=&UniDbQuery.date_req2=&UniDbQuery.VAL_NM_RQ=R01035&UniDbQuery.From=15.05.2015&UniDbQuery.To=15.05.2023
 
 Все питоновские тетрадки мы дублируем как в ipynb, так и в hmtl, чтобы не слетали графики. Парсинг данных и предобработку можно найти в файлах с соответствующими названиями. Построение стратегии торговли и выводы по ней в файле "Стратегия". Также с помощью методов машинного оубчения мы строили предсказывающую курс некоторых валют модель, измеряли ее качество, чтобы использовать ее алгоритмы в глобальных целях проекта: чтобы потом инвестор мог предсказывать обратный курс валюты (без сильных шоков) и принимать соответствующие решения. Работу по этой части можно найти в отдельном файле "Модель"
 
